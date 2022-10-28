@@ -8,7 +8,7 @@
 1. Analyze, Explore and Validate i94 dataset
 2. Focus on infrastructure setup for the data pipelines, this involves, 
     - Using AWS Cloud formation to start EC2 instance, install Airflow in it, start EMR and Redshift
-    - Installing Airflow in Udacity workspace and create EMR via Airflow to process data and Terminate EMR after finishing the processing. 
+    - Installing Airflow and create EMR via Airflow to process data and Terminate EMR after finishing the processing. 
     - Both the above infra setup has it own usecase of which is efficient like,   
         + When you use Cloud formation, you have the ability to delete all the resources it had created in one-click. So, for testing scenarios this is very efficient
         + Second method, thats more real-time, that what a company would use. Start a EMR before processing and process data and Terminate EMR when done. Its very clean. 
