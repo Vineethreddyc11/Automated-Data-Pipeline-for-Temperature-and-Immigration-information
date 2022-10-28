@@ -1,7 +1,7 @@
 # Automated-Data-Pipeline-for-Temperature-and-Immigration-information
 
 
-## Data Engineering Capstone Project
+
 
 ### Project Summary
   
