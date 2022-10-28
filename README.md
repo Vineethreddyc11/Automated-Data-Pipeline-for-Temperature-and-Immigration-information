@@ -1,6 +1,6 @@
 # Automated-Data-Pipeline-for-Temperature-and-Immigration-information
 
-# US Travels : Business / Pleasure / Education / All
+
 ## Data Engineering Capstone Project
 
 ### Project Summary
@@ -920,7 +920,8 @@ Below are the Jupyter Notebooks used for the exercise : <br>
 
 <br>
     
-<img src="./images/Staging_Tables.png" alt="drawing" width="1200"/>
+
+![Screen Shot 2022-10-27 at 6 03 52 PM](https://user-images.githubusercontent.com/68578215/198429661-a3e7e9bb-7439-482c-aebc-170bc45985d5.png)
 
 
 <a id="step3-mdp"></a>
@@ -974,7 +975,9 @@ Below are the Jupyter Notebooks used for the exercise : <br>
 
 <div> By reviewing the dataframes, we can write DDL statements for the Fact &amp; Dimensional tables. I have found an easy process (<code>pd.io.sql.get_schema</code>) to generate DDL statements from a dataframe.</div>
 <br>
-<img src="./images/FactandDimension_Tables.png" alt="drawing" width="1200"/>
+
+![Screen Shot 2022-10-27 at 6 04 16 PM](https://user-images.githubusercontent.com/68578215/198429656-4ef1174a-de89-43d3-9b21-0549f2a67a78.png)
+
 
 <a id="step4-dqc"></a>
 ### 4.2 Data Quality Checks
@@ -995,20 +998,26 @@ Simple and straight forward table design is chosen which will help in building s
 <a id="step4-analytics"></a>
 ### 4.4 Analytics
 <h4>Top visitors to US are from Mexico, China, Brazil and India.</h4>
-<img src='./analytics_images/Q1G1.png'>
+
+![Screen Shot 2022-10-27 at 6 04 25 PM](https://user-images.githubusercontent.com/68578215/198434034-4c84e341-ab88-4593-8da2-93ecb39e7cb7.png)
 
 <h4>Most visited state in US seems to be Florida & California</h4>
-<img src='./analytics_images/Q2G1.png'>
+
+![Screen Shot 2022-10-27 at 6 04 30 PM](https://user-images.githubusercontent.com/68578215/198434031-791f9c8b-5d73-4b29-a666-e8a35dc4e8e3.png)
+
+
 
 **Florida** is also sometimes referred to as the Sunshine State, and is a major tourist attraction due to its various beaches and parks. For example, Amelia Island is home to Fernandina Beach, which has unique features and a charming shrimping village that attracts vast numbers of travelers to the region. Other notable sites in Florida include the Castillo de San Marcos, Walt Disney World, the Everglades, South Beach, and the famous Overseas Highway, which connects the Florida Keys to the mainland.
 
 **California** is the most visited state in the United States. The state's vast area is home to various vibrant cities, amusement parks, beaches and natural wonders that are popular among travelers from America and the rest of the world. Both Los Angeles and San Francisco are considered Gateway Cities, and are home to some of the most popular and recognizable tourist spots in the country. These include the Golden Gate Bridge, Disneyland, and Hollywood. Additionally, some of the national parks located in California are also significant tourist destinations. For example, Yosemite National Park in Northern California is well know for its tall mountains, valleys, and beautiful waterfalls.
 
 <h4>Top reason to visit US seems to be for Pleasure</h4>
-<img src='./analytics_images/Q4G1.png'>
+
+![Screen Shot 2022-10-27 at 6 04 36 PM](https://user-images.githubusercontent.com/68578215/198434028-f6b44f40-df0b-4bf6-b741-8f53dce0d8ea.png)
 
 <h4>Tourists by Country & Age range</h4>
-<img src='./analytics_images/Q5bG1.png'>
+
+![Screen Shot 2022-10-27 at 6 04 42 PM](https://user-images.githubusercontent.com/68578215/198434022-90fcc7f7-2dfa-4f8b-9dc6-b219e979e9e5.png)
 This graphs gives a lot of valuable information like,    
 
 1. People of age between 40 - 55, travel a lot as that age range has the highest count except india.
@@ -1016,49 +1025,45 @@ This graphs gives a lot of valuable information like,
 
 <h4>Visit purpose & Number of days stay in US </h4>
 <h4>Student : Next to chinese are the indians</h4>
-<img src='./analytics_images/Q6G1.png'>
+
+![Screen Shot 2022-10-27 at 6 04 48 PM](https://user-images.githubusercontent.com/68578215/198434019-624de1ae-a680-44a8-b363-6f808ddb1d7d.png)
 
 <h4>Business : In business again China tops, next is india, mexico and brazil</h4>
-<img src='./analytics_images/Q6G2.png'>
+
+![Screen Shot 2022-10-27 at 6 04 54 PM](https://user-images.githubusercontent.com/68578215/198434014-06eae5e3-9437-4be9-a805-b51d21371962.png)
 
 <h4>Pleasure : Indian tend to stay longer in US when compare to other countries in the range beween 60-100 & 100-200</h4>
-<img src='./analytics_images/Q6G3.png'>
+
+![Screen Shot 2022-10-27 at 6 05 01 PM](https://user-images.githubusercontent.com/68578215/198434012-de29df8c-df39-445d-83c1-f786653f6c6f.png)
 
 <h4>Gender by county - There are more females in US than males. :D Interesting</h4>
-<img src="./analytics_images/Q7G1.png">
-<img src="./analytics_images/Q7G1-legend.png">
+
+![Screen Shot 2022-10-27 at 6 05 17 PM](https://user-images.githubusercontent.com/68578215/198434005-4118709f-01e9-43af-b582-ecd5c7f69898.png)
 
 <h4>Major race in US is White</h4>
-<img src="./analytics_images/Q8G1.png">
-<img src="./analytics_images/Q8G1-legend.png">
 
+![Screen Shot 2022-10-27 at 6 05 33 PM](https://user-images.githubusercontent.com/68578215/198433998-f33ac6f5-97ab-4434-be9f-866324930dc0.png)
 <h4>People like visiting Us during holiday season and other than Feb every month around 800k visitors are entering US.</h4>
-<img src='./analytics_images/Q9G1.png'>
+
+![Screen Shot 2022-10-27 at 6 05 39 PM](https://user-images.githubusercontent.com/68578215/198433995-a2fc2c9e-5ca0-4c75-8573-edc62ec464bf.png)
 
 <h4>Weather map with Min, Avg & Max weather</h4>
-<table>
-<tr>
-<td><img src='./analytics_images/Q10G1-legend.png' width="100" height="300"></td>
-<td><img src='./analytics_images/Q10bG1.png'></td>
-</tr>
-<tr>
-<td><img src='./analytics_images/Q10G1-legend.png' width="100" height="300"></td>
-<td><img src='./analytics_images/Q10bG2.png'></td>
-</tr>
-<tr>
-<td><img src='./analytics_images/Q10G1-legend.png' width="100" height="300"></td>
-<td><img src='./analytics_images/Q10bG3.png'></td>
-</tr>
-</table>
+
+
+![Screen Shot 2022-10-27 at 6 06 05 PM](https://user-images.githubusercontent.com/68578215/198433990-9a2c1149-fca4-43cf-a6eb-9c365f1e22a8.png)
+
+
+
 
 <h4>Global warming is happening!</h4>
 There is a continous trend of increasing temperature in the last 100+ years 
-<img src='./analytics_images/Q11G1.png'>
-<img src='./analytics_images/Q11-Boston&Anchorage.png'>
-<img src='./analytics_images/Q11-Washington&Los Angeles.png'>
-<img src='./analytics_images/Q11-Chicago&Denver.png'>
 
-<a id="step5"></a>
+![Screen Shot 2022-10-27 at 6 06 39 PM](https://user-images.githubusercontent.com/68578215/198433973-b56c7f8a-ee58-4bbc-b3c2-52fde3d3e85f.png)
+
+![Screen Shot 2022-10-27 at 6 06 29 PM](https://user-images.githubusercontent.com/68578215/198433980-6060966d-b970-4131-96c1-0219780751d8.png)
+
+![Screen Shot 2022-10-27 at 6 06 21 PM](https://user-images.githubusercontent.com/68578215/198433985-88442ac5-69ea-47d1-a4c1-2f00045e0757.png)
+
 ### Step 5: Complete Project Write Up
 <b>Tools &amp; Technologies</b>
 <div>
